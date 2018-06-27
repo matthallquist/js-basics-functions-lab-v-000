@@ -4,3 +4,4 @@ function distanceFromHqInBlocks(start, stop) {
   result = start - stop;
   return result;
 }
+ 
