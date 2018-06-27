@@ -19,3 +19,7 @@ function distanceTravelledInFeet(start, stop) {
   }
   return result;
 }
+
+function calculatesFarePrice(start, destination) {
+  
+}
