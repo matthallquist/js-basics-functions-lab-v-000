@@ -2,7 +2,7 @@
 function distanceFromHqInBlocks(value) {
   let result = 42 - value;
   if (Math.sign(result) === -1) {
-    result = -result;
+    return -result;
   }
   return result;
 }
