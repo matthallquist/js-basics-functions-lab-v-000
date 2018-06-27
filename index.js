@@ -13,3 +13,12 @@ function distanceFromHqInFeet(value) {
   result = distanceFromHqInBlocks(value) * 264;
   return result;
 }
+
+function distanceTravelledInFeet(start, stop) {
+  let result;
+  result = start - stop;
+  if (Math.sign(result) === -1) {
+    result = -result;
+  }
+  return result;
+}
