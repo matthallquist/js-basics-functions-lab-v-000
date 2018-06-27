@@ -21,10 +21,11 @@ function distanceTravelledInFeet(start, stop) {
 }
 
 function calculatesFarePrice(start, stop) {
-  let result = distanceTravelledInFeet(start, stop);
-  paidDistance = 400 - result;
+  let result;
+  let feet = distanceTravelledInFeet(start, stop);
+  paidDistance = 400 - feet;
   alert(Math.sign(paidDistance));
   if (Math.sign(paidDistance) === -1 || Math.sign(paidDistance) === 0) {
-    return 0;
+
   }
 }
