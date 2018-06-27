@@ -26,6 +26,10 @@ function calculatesFarePrice(start, stop) {
   if (paidDistance < 400 || paidDistance === 0) {
     return 0
   } else if (paidDistance > 400) {
+    if (paidDistance >= 2000 && paidDistance <= 2500) {
 
+    } else if (paidDistance > 2500) {
+      return 'cannot travel that far';
+    }
   }
 }
