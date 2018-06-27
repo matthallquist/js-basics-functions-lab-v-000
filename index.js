@@ -23,11 +23,11 @@ function distanceTravelledInFeet(start, stop) {
 function calculatesFarePrice(start, stop) {
   let result = distanceTravelledInFeet(start, stop);
   paidDistance = 400 - result;
-  if ((400 - result) < 400) {
-    
-  } else if ((400-result) > 400) {
+  if (paidDistance < 400) {
+
+  } else if (paidDistance > 400) {
     return
-  } else if ((400 - result) === 0) {
+  } else if (paidDistance === 0) {
     return 0
   }
 }
