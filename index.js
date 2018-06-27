@@ -26,6 +26,7 @@ function calculatesFarePrice(start, stop) {
   paidDistance = 400 - feet;
   alert(Math.sign(paidDistance));
   if (Math.sign(paidDistance) === -1 || Math.sign(paidDistance) === 0) {
-
+    result = 0;
   }
+  return result;
 }
