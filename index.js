@@ -1,7 +1,6 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks(start, stop) {
+function distanceFromHqInBlocks(value) {
   let result;
-  result = start - stop;
+  result = 42 - value;
   return result;
 }
- 
