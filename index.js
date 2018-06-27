@@ -26,9 +26,14 @@ function calculatesFarePrice(start, stop) {
   paidDistance = feet - 400;
   if (paidDistance > 2100) {
     return 'cannot travel that far';
-  } else if (paidDistance > 0 && paidDistance < 1600) {
+  }
+  else if (paidDistance >= 1600 && paidDistance <=2100) {
+    return 25;
+  } 
+  else if (paidDistance > 0 && paidDistance < 1600) {
     return paidDistance * .02;
-  } else if (paidDistance <= 0) {
+  } 
+  else if (paidDistance <= 0) {
     return 0;
   }
 }
