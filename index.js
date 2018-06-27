@@ -16,7 +16,7 @@ function distanceTravelledInFeet(start, stop) {
   let result;
   result = (start - stop) * 264;
   if (Math.sign(result) === -1) {
-    result = -result;
+    return -result;
   }
   return result;
 }
