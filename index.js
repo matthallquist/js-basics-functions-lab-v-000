@@ -24,7 +24,7 @@ function calculatesFarePrice(start, stop) {
   let result;
   let feet = distanceTravelledInFeet(start, stop);
   paidDistance = feet - 400;
-  if (paidDistance > 0 && paidDistance < 1600) {
-    
+  if (paidDistance > 2100) {
+    return 'cannot travel that far';
   }
 }
