@@ -20,6 +20,14 @@ function distanceTravelledInFeet(start, stop) {
   return result;
 }
 
-function calculatesFarePrice(start, destination) {
-  
+function calculatesFarePrice(start, stop) {
+  let result = distanceTravelledInFeet(start, stop);
+  paidDistance = 400 - result;
+  if ((400 - result) < 400) {
+    
+  } else if ((400-result) > 400) {
+    return
+  } else if ((400 - result) === 0) {
+    return 0
+  }
 }
