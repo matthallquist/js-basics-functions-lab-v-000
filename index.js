@@ -9,8 +9,7 @@ function distanceFromHqInBlocks(value) {
 }
 
 function distanceFromHqInFeet(value) {
-  let result;
-  result = distanceFromHqInBlocks(value) * 264;
+  let result = distanceFromHqInBlocks(value) * 264;
   return result;
 }
 
