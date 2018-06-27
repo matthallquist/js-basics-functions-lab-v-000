@@ -25,7 +25,5 @@ function calculatesFarePrice(start, stop) {
   paidDistance = 400 - result;
   if (Math.sign(paidDistance) === -1 || Math.sign(paidDistance) === 0) {
     return 0;
-  } else if (paidDistance >= 400 && paidDistance <= 1999) {
-    return paidDistance * .02;
   }
 }
