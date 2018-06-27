@@ -28,5 +28,7 @@ function calculatesFarePrice(start, stop) {
     return 'cannot travel that far';
   } else if (paidDistance > 0 && paidDistance < 1600) {
     return paidDistance * .02;
+  } else if (paidDistance <= 0) {
+    return 0;
   }
 }
